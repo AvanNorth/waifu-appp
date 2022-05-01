@@ -7,6 +7,6 @@ import retrofit2.http.GET
 interface Api {
  @GET("SFW/waifu")
  fun getWaifu(): Single<Content>
- @GET("SFW/hug)
+ @GET("SFW/hug")
  fun getHugs(): Single<Content>
 }
